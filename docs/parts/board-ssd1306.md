@@ -38,8 +38,18 @@ You can choose between several SSD1306 Arduino libraries:
 
 All the above libraries are available on Wokwi.
 
+## OLED Lines Code for basic
+
+- oled.clearDisplay(): Clear the screen
+- oled.setTextSize(n): Size of letters displayed on the screen ("n" can take values ​​only from 1 to 5)
+- oled.setTextColor(m): Select from text color ("m" can be "BLACK" or "WHITE")
+- oled.setCursor(x, y): selects the two-dimensional position of the next text to write ("x" can take values ​​only from 0 to 128, and "y" can take values ​​only from 0 to 64)
+- oled.println(text): Select text to write
+- oled.display(): print the text on the oled screen
+
 ## Simulator examples
 
+- [SSD1306 ESP32 Say "HOLA"](https://wokwi.com/projects/377782264177160193)
 - [SSD1306 Snake Game](https://wokwi.com/projects/296135008348799496) (using Adafruit SSD1306)
 - [ATtiny85 Digital Temperature + Humidity on SSD1306](https://wokwi.com/projects/292900020514980360)
 - [U8glib Progress Bar](https://wokwi.com/projects/300867986768527882)
